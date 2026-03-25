@@ -1,0 +1,179 @@
+.footer-container {
+    background-color: #151930;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 3%;
+    padding: 70px 0;
+    text-align: left;
+    color: white;
+}
+
+.footer-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
+.row1 {
+    width: 24%;
+}
+
+.row2, .row3 {
+    width: 15%;
+}
+
+.row4 {
+    width: 21%;
+}
+
+.row5 {
+    width: 25%;
+}
+
+.footer-logo img {
+    width: 120px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 1px 10px black;
+}
+
+.footer-about-us {
+    margin: 25px 10px 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+.footer-lists ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-lists a {
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.footer-lists a:hover,
+.footer-contact a:hover {
+    color: #05aceead;
+}
+
+.footer-arrow {
+    display: inline-block;
+    opacity: 0;
+    transform: translateX(0px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.footer-lists a:hover .footer-arrow,
+.footer-contact a:hover .footer-arrow {
+    display: inline-block;
+    animation: slideOut 0.5s ease forwards;
+    color: #05aceead;
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(10px);
+    }
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-address {
+    display: flex;
+}
+
+.call-icon {
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+.email-icon {
+    margin-right: 7px;
+    font-size: 18px;
+}
+
+.contact-address div:nth-of-type(1),
+.open-hours span {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.open-hours span {
+    margin-top: -3px;
+}
+
+.map {
+    margin-top: 5px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 3%;
+}
+
+.footer-socials a {
+    background: #26429738;
+    padding: 10px;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.footer-socials a:hover {
+    background: white;
+    color: #06104e;
+}
+
+@media (min-width: 350px) and (max-width:767px) {
+    .footer-content {
+        flex-direction: column;
+        padding: 35px 0;
+    }
+
+    .row1, .row2, .row3, .row4, .row5 {
+        width: 100%;
+    }
+
+    .footer-about-us {
+        text-align: start;
+    }
+
+    .footer-content h4 {
+        margin: 20px 0;
+    }
+
+}

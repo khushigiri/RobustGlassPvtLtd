@@ -1,0 +1,268 @@
+.our-products {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.our-products::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(41 70 135 / 58%);
+    z-index: 1;
+    left: 0;
+}
+
+.product-container {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.product-section-title h2 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #060d44;
+}
+
+.product-heading-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.product-heading-content {
+    padding-bottom: 4%;
+}
+
+.product-heading {
+    width: 50%;
+}
+
+.product-heading h3 {
+    font-size: 38px;
+    line-height: 1.3;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: -2px;
+    text-align: left;
+}
+
+.product-heading-desc {
+    margin-bottom: 0;
+    width: 50%;
+    margin-right: 18%;
+    text-align: left;
+}
+
+.product-heading-desc p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.product-card {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 45px;
+    text-align: left;
+    width: 90% !important;
+    display: flex !important;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 0;
+}
+
+.card-icons {
+    color: #030a4b;
+    display: inline-block;
+    font-size: 3.3rem;
+    position: relative;
+}
+
+.card-icons-bg {
+    position: relative;
+}
+
+.card-icons-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 55%;
+    background: #1200ff2e;
+    z-index: 0;
+    border-radius: 40%;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-desc {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.card-btns {
+    text-align: center;
+}
+
+.card-btns p {
+    margin: 0 !important;
+}
+
+.card-btns button {
+    background-color: #080e55;
+    color: white;
+    align-content: center;
+}
+
+.card-btns button {
+    position: relative;
+    padding: 13px 17px;
+    margin-top: 10px;
+    font-weight: bold;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.4s ease;
+    border: none;
+}
+
+.card-btns button::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 50%;
+    background-color: #91929f;
+    transition: left 0.5s ease;
+    z-index: -1;
+}
+
+.card-btns button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 50%;
+    background-color: #91929f;
+    transition: right 0.5s ease;
+    z-index: -1;
+}
+
+.card-btns button:hover::before {
+    left: 0;
+}
+
+
+.card-btns button:hover::after {
+    right: 0;
+}
+
+.card-btns a {
+    color: #080e55;
+    text-decoration: none;
+}
+
+.btn-hover-text {
+    display: none;
+}
+
+.card-btns button:hover .btn-text {
+    display: none;
+}
+
+.card-btns button:hover .btn-hover-text {
+    display: inline-block;
+}
+
+.product-card:hover .card-icons {
+    animation: zoomOutIn 2s ease-in-out infinite;
+}
+
+@keyframes zoomOutIn {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.custom-indicator {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.custom-indicator .bar {
+    width: 35px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-indicator .bar.active {
+    background-color: #130853;
+}
+
+@media (min-width:350px) and (max-width:767px) {
+    .product-heading-info {
+        flex-direction: column;
+    }
+
+    .product-heading {
+        width: 100%;
+    }
+
+    .product-heading-desc {
+        width: 100%;
+    }
+
+    .product-heading-desc p {
+        margin: 25px 0;
+    }
+
+    .product-carousel .slick-slide {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .product-card {
+        width: 85% !important;
+        margin: 0 auto;
+    }
+
+    .slick-track {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom-indicator {
+        display: none;
+    }
+}
