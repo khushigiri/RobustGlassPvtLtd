@@ -183,5 +183,22 @@
 @media (min-width:350px) and (max-width:767px) {
     .faqs-left {
         width: 100%;
+        padding: 0 15px;
+    }
+
+    .faqs-head {
+        padding-top: 70vh;
+    }
+
+    .faqs-title {
+        font-size: 30px;
+    }
+
+    .faqs-buttons {
+        margin: 20px 0;
+    }
+
+    .faqs-buttons button {
+        padding: 8px 40px;
     }
 }

@@ -422,10 +422,19 @@ textarea:hover {
 
 
 @media (min-width:350px) and (max-width:767px) {
+
+    .work-container {
+        padding: 0;
+    }
+
     .our-work-section {
         margin-top: 10%;
-        height: 340vh;
-        margin-bottom: 75%;
+        height: 300vh;
+        margin-bottom: 0%;
+    }
+
+    .work-section-title h2 {
+        padding-top: 5vh;
     }
 
     .work-heading-info {
