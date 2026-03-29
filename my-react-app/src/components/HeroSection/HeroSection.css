@@ -208,30 +208,43 @@
 
 @media (min-width:350px) and (max-width:767px) {
 
-    .hero-section {
+    /* .hero-section {
         height: auto;
-    }
+    } */
 
 
     .slide-contents {
-        min-height: 70vh;
         padding: 40px 0;
         display: flex;
         align-items: center;
+        background-size: inherit;
     }
 
     .slide-container {
         width: 100%;
-        height: auto;
+        transform: translateY(-50px);
     }
 
-    .carousel-indicators {
+    .carousel-indicators button {
         display: none;
     }
 
-
     .slide-heading {
         font-size: 32px;
-        line-height: 1.2;
+        line-height: 1.4;
+    }
+
+    .slide-info {
+        line-height: 1.7;
+        margin-bottom: 3%;
+        text-align: justify;
+    }
+
+    .slide-points {
+        margin-bottom: 3%;
+    }
+
+    .quote {
+        margin-bottom: 2%;
     }
 }

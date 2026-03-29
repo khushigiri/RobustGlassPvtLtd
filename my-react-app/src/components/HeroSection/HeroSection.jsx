@@ -25,14 +25,14 @@ const HeroSection = () => {
                                 <div className=" slide-container" >
                                     <div className='quote'>Ready to transform your space?</div>
                                     <div className='slide-heading'>Premium Toughened Glass</div>
-                                    <div>Robust Glass Pvt. Ltd. delivers precision-crafted toughened glass solutions for architecture, interiors, and industrial needs — combining safety, durability, and elegance in every panel.</div>
+                                    <div className='slide-info'>Robust Glass Pvt. Ltd. delivers precision-crafted toughened glass solutions for architecture, interiors, and industrial needs — combining safety, durability, and elegance in every panel.</div>
                                     <div>
                                         <ul>
                                             <li>
-                                                <i className="fa-regular fa-circle-check" aria-label="checkmark icon"></i> High Durability & Thermal Resistance
+                                                <i className="slide-points fa-regular fa-circle-check" aria-label="checkmark icon"></i> High Durability & Thermal Resistance
                                             </li>
                                             <li>
-                                                <i className="fa-regular fa-circle-check" aria-label="checkmark icon"></i> Strict Quality & Processing Standards
+                                                <i className="slide-points fa-regular fa-circle-check" aria-label="checkmark icon"></i> Strict Quality & Processing Standards
                                             </li>
                                         </ul>
                                     </div>
@@ -59,7 +59,7 @@ const HeroSection = () => {
                                 <div className=" slide-container" >
                                     <div className='quote'>Looking for tailor-made precision?</div>
                                     <div className='slide-heading'>Customized Glass Solutions</div>
-                                    <div>We specialize in crafting custom-sized, finely finished glass solutions to meet the specific needs of architects, interior designers, and project developers — with precise cuts, finishes, and edge treatments.</div>
+                                    <div className='slide-info'>We specialize in crafting custom-sized, finely finished glass solutions to meet the specific needs of architects, interior designers, and project developers — with precise cuts, finishes, and edge treatments.</div>
                                     <div className='slide-btns'>
                                         <button className="hero-btn-1" style={{ marginTop: '20px' }}>
                                             <a href='#about-us'>
@@ -86,10 +86,10 @@ const HeroSection = () => {
                                     <div>
                                         <ul>
                                             <li>
-                                                <i className="fa-regular fa-circle-check " aria-label="checkmark icon"></i> Timely Delivery with Secure Packaging
+                                                <i className="slide-points fa-regular fa-circle-check " aria-label="checkmark icon"></i> Timely Delivery with Secure Packaging
                                             </li>
                                             <li>
-                                                <i className="fa-regular fa-circle-check" aria-label="checkmark icon"></i> Dealer Partnerships & Regional Distribution
+                                                <i className="slide-points fa-regular fa-circle-check" aria-label="checkmark icon"></i> Dealer Partnerships & Regional Distribution
                                             </li>
                                         </ul>
                                     </div>
