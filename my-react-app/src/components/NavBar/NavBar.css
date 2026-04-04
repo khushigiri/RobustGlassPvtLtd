@@ -239,6 +239,68 @@
     font-size: 18px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .navbar-contents {
+        padding: 10px 20px;
+    }
+
+    .nav-logo {
+        width: auto;
+        margin-left: -20px;
+    }
+
+    .nav-logo img {
+        height: 60px;
+        width: 90px;
+    }
+
+    .nav-links {
+        font-size: 13px;
+    }
+
+    .nav-link1::after,
+    .nav-link2::after,
+    .nav-link3::after {
+        bottom: -20px !important;
+    }
+
+    .navcontainer.scrolled .nav-links {
+        margin-top: 25px;
+        margin-left: 60px;
+    }
+
+    .nav-contact {
+        width: auto;
+        gap: 8px;
+    }
+
+    .navcontainer.scrolled .nav-contact {
+        margin-top: 30px;
+        right: 0;
+    }
+
+    .phone-icon {
+        font-size: 26px;
+    }
+
+    .phone-no span:nth-of-type(1) {
+        font-size: 12px;
+    }
+
+    .phone-no span:nth-of-type(2) {
+        font-size: 15px;
+    }
+
+    .navcontainer.scrolled .lower-bar-text {
+        margin-right: 4%;
+    }
+
+    .navcontainer.scrolled .nav-lower-bar {
+        height: 35%;
+    }
+}
+
 @media (min-width:350px) and (max-width: 767px) {
 
     .navcontainer .container {
@@ -271,7 +333,7 @@
 
     .nav-logo img {
         height: 60px;
-        width: 100%;
+        width: 55px;
     }
 
     .nav-links {

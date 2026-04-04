@@ -9,7 +9,7 @@ const AboutUs = () => {
         <section className="about-us container" id='about-us' aria-label="About Robust Glass Section">
 
             <div className="img-content">
-                <img src={AboutUsjpg} alt="Worker handling glass panel in factory" aria-label="Worker handling glass panel in factory" />
+                <img src={AboutUsjpg} loading='lazy' alt="Worker handling glass panel in factory" aria-label="Worker handling glass panel in factory" />
             </div>
 
             <div className="text-content">

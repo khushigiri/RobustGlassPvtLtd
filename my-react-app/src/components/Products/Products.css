@@ -21,7 +21,7 @@
     z-index: 2;
     color: white;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .product-section-title h2 {
@@ -212,7 +212,7 @@
 .custom-indicator {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 40px;
     gap: 10px;
 }
 
@@ -227,6 +227,68 @@
 
 .custom-indicator .bar.active {
     background-color: #130853;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .product-container {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .product-heading-info {
+        gap: 25px;
+        align-items: flex-start;
+    }
+
+    .product-heading {
+        width: 45%;
+    }
+
+    .product-heading h3 {
+        font-size: 30px;
+    }
+
+    .product-heading-desc {
+        width: 55%;
+        margin-right: 0;
+    }
+
+    .product-heading-desc p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    /* CARD OPTIMIZATION */
+    .product-card {
+        padding: 30px;
+        width: 100% !important;
+        gap: 12px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-desc {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .card-icons {
+        font-size: 2.5rem;
+    }
+
+    .card-btns button {
+        padding: 10px 14px;
+        font-size: 13px;
+    }
+
+    /* Indicators */
+    .custom-indicator .bar {
+        width: 28px;
+        height: 8px;
+    }
 }
 
 @media (min-width:350px) and (max-width:767px) {

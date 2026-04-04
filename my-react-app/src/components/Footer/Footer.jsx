@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='footer-content container'>
                 <div className="row1">
                     <div className='footer-logo'>
-                        <img src={LOGO} alt="Robust Glass Private Limited logo" />
+                        <img src={LOGO} alt="Robust Glass Private Limited logo" loading='lazy' />
                     </div>
                     <div className='footer-about-us'>
                         <p>Robust Glass Pvt. Ltd. offers premium toughened glass solutions for buildings, interiors, and industrial use — ensuring clarity, strength, and safety in every panel.</p>

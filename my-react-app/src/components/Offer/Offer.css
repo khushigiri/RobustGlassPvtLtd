@@ -6,8 +6,8 @@
     position: relative;
     z-index: 2;
     color: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 85px;
 }
 
 .offer-section-title {
@@ -168,26 +168,11 @@
     display: flex;
 }
 
-.star-icon-1,
-.star-icon-2,
-.star-icon-3 {
+.star-icon {
     position: relative;
     font-size: 40px;
-}
-
-.star-icon-1 {
-    top: -12px;
-    left: 2px;
-}
-
-.star-icon-2 {
-    top: -12px;
-    left: -3px;
-}
-
-.star-icon-3 {
     top: -10px;
-    left: 15px;
+    left: -10px;
 }
 
 .hover-actions p {
@@ -303,6 +288,60 @@
     animation-delay: .3s;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .offer-heading {
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .heading {
+        width: 45%;
+    }
+
+    .heading h3 {
+        font-size: 30px;
+    }
+
+    .offer-heading-info {
+        width: 55%;
+        margin-right: 0;
+    }
+
+    .offer-heading-info p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    /* KEY FIX: 3 → 2 columns */
+    .services-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .card-content,
+    .overlay,
+    .hover-actions {
+        padding: 0.8rem;
+    }
+
+    .hover-actions p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .hover-heading h5 {
+        font-size: 15px;
+    }
+
+    .star-icon {
+        font-size: 32px;
+    }
+
+    .wrapper {
+        margin-left: 20px;
+    }
+}
 
 @media (min-width:350px) and (max-width:767px) {
     .offer-heading {
@@ -327,6 +366,7 @@
 
     .services-cards {
         grid-template-columns: auto;
+        gap: 5%;
     }
 
     .card {
@@ -345,17 +385,5 @@
 
     .wrapper {
         margin-left: 18px;
-    }
-
-    .star-icon-1 {
-        left: -5px;
-    }
-
-    .star-icon-2 {
-        top: -10px;
-    }
-
-    .star-icon-3 {
-        left: 8px;
     }
 }

@@ -74,7 +74,7 @@
 .work-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
+    gap: 50px;
 }
 
 .work-card {
@@ -419,7 +419,96 @@ textarea:hover {
     color: #030a4b;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
 
+    /* SECTION FIX */
+    .our-work-section {
+        height: auto;
+        margin-bottom: 10%;
+    }
+
+    .work-container {
+        padding: 70px 30px;
+    }
+
+    /* HEADING FIX */
+    .work-heading-info {
+        gap: 25px;
+        align-items: flex-start;
+    }
+
+    .work-heading {
+        width: 45%;
+    }
+
+    .work-heading h3 {
+        font-size: 30px;
+    }
+
+    .work-heading-desc {
+        width: 55%;
+        margin-right: 0;
+    }
+
+    .work-heading-desc p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    /* CARDS */
+    .work-cards {
+        gap: 30px;
+    }
+
+    .work-card img {
+        height: 180px;
+    }
+
+    /* FORM SECTION */
+    #form-section {
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 25px;
+    }
+
+    .form-left,
+    .form-right {
+        width: 100%;
+    }
+
+    .left-heading h3 {
+        font-size: 26px;
+    }
+
+    .left-info p {
+        font-size: 15px;
+    }
+
+    /* CONTACT GRID FIX */
+    .contact-details {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    /* INPUT FIX */
+    .form-row {
+        gap: 15px;
+    }
+
+    input,
+    .custom-select-wrapper {
+        width: 100%;
+    }
+
+    textarea {
+        font-size: 14px;
+    }
+
+    .form-btn button {
+        padding: 15px 25px;
+        font-size: 13px;
+    }
+}
 
 @media (min-width:350px) and (max-width:767px) {
 
@@ -428,7 +517,7 @@ textarea:hover {
     }
 
     .our-work-section {
-        margin-top: 10%;
+        margin-top: 15%;
         height: 300vh;
         margin-bottom: 0%;
     }
@@ -439,6 +528,7 @@ textarea:hover {
 
     .work-heading-info {
         flex-direction: column;
+        padding-bottom: 5px;
     }
 
     .work-heading {

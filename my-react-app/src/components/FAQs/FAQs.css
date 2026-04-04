@@ -180,6 +180,64 @@
     line-height: 1.5;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .faqs-head {
+        padding: 50px 30px;
+    }
+
+    .faqs-wrapper {
+        gap: 30px;
+    }
+
+    .faqs-left {
+        width: 48%;
+    }
+
+    .faqs-right {
+        width: 48%;
+    }
+
+    .faqs-title {
+        font-size: 30px;
+    }
+
+    .faqs-subheading {
+        font-size: 0.9rem;
+    }
+
+    .faqs-buttons {
+        gap: 15px;
+        margin: 20px 0;
+    }
+
+    .faqs-buttons button {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+
+    .faqs-experience {
+        margin-top: 25px;
+        font-size: 14px;
+    }
+
+    .icon-house {
+        font-size: 35px;
+    }
+
+    .faq-box {
+        padding: 18px;
+    }
+
+    .faq-question {
+        font-size: 0.95rem;
+    }
+
+    .faq-answer {
+        font-size: 0.85rem;
+    }
+}
+
 @media (min-width:350px) and (max-width:767px) {
     .faqs-left {
         width: 100%;
@@ -187,7 +245,7 @@
     }
 
     .faqs-head {
-        padding-top: 70vh;
+        padding-top: 77vh;
     }
 
     .faqs-title {

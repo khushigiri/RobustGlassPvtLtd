@@ -32,14 +32,14 @@ const Offer = () => {
                             <svg className="check" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
                                 <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path>
                             </svg>
-                            <img src={archImg} alt='Architecture and Design' /><hr />
+                            <img src={archImg} alt='Architecture and Design' loading='lazy' /><hr />
                             <button type="button" className='card-btn' aria-label='View Architecture and Design services'>
                                 Architecture & Design
                             </button>
                             <div className="overlay"></div>
                             <div className='hover-actions'>
                                 <div className='hover-heading'>
-                                    <div className='star-icon-1'>
+                                    <div className='star-icon'>
                                         <FaRegStarHalfStroke aria-label="Star rating for design service" />
                                     </div>
                                     <div>
@@ -64,7 +64,7 @@ const Offer = () => {
                             <svg className="check" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
                                 <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path>
                             </svg>
-                            <img src={infraImg} alt='Industrial Infrastructure' />
+                            <img src={infraImg} alt='Industrial Infrastructure' loading='lazy' />
                             <hr />
                             <button type="button" className='card-btn'>
                                 Industrial Infrastructure
@@ -72,7 +72,7 @@ const Offer = () => {
                             <div className="overlay"></div>
                             <div className='hover-actions'>
                                 <div className='hover-heading'>
-                                    <div className='star-icon-2'>
+                                    <div className='star-icon'>
                                         <FaRegStarHalfStroke aria-label="Star rating for design service" />
                                     </div>
                                     <div>
@@ -97,14 +97,14 @@ const Offer = () => {
                             <svg className="check" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
                                 <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path>
                             </svg>
-                            <img src={realestateImg} alt='Real Estate and Interiors' /><hr />
+                            <img src={realestateImg} alt='Real Estate and Interiors' loading='lazy' /><hr />
                             <button type="button" className='card-btn'>
                                 Real Estate & Interiors
                             </button>
                             <div className="overlay"></div>
                             <div className='hover-actions'>
                                 <div className='hover-heading'>
-                                    <div className='star-icon-3'>
+                                    <div className='star-icon'>
                                         <FaRegStarHalfStroke aria-label="Star rating for design service" />
                                     </div>
                                     <div>

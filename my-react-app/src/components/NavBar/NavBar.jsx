@@ -53,7 +53,7 @@ const NavBar = () => {
 
                         <div className='nav-logo'>
                             <a href="https://wa.me/+911234567890" target="_blank" rel="noreferrer">
-                                <img src={LOGO} alt='Company Logo' />
+                                <img src={LOGO} alt='Company Logo' loading='lazy' />
                             </a>
                         </div>
 

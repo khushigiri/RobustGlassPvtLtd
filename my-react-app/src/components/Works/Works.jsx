@@ -64,7 +64,7 @@ const Works = () => {
                     </div>
                     <div className="work-cards">
                         <div className="work-card">
-                            <img src={creation1} alt="Office Glass Facade" />
+                            <img src={creation1} alt="Office Glass Facade" loading='lazy' />
                             <h3>Office Glass Facade</h3>
                             <p>Bangalore | 12mm Toughened Glass</p>
                             <span>Modern & high-durability facade for a commercial building.</span>
@@ -75,7 +75,7 @@ const Works = () => {
                         </div>
 
                         <div className="work-card">
-                            <img src={creation2} alt="Interior Glass Partition" />
+                            <img src={creation2} alt="Interior Glass Partition" loading='lazy' />
                             <h3>Interior Glass Partition</h3>
                             <p>Mumbai | 8mm Toughened Glass</p>
                             <span>Stylish workspace glass dividers with sound insulation.</span>
@@ -86,7 +86,7 @@ const Works = () => {
                         </div>
 
                         <div className="work-card">
-                            <img src={creation3} alt="Retail Glass Doors" />
+                            <img src={creation3} alt="Retail Glass Doors" loading='lazy' />
                             <h3>Retail Glass Doors</h3>
                             <p>Kolkata | 6mm Toughened Glass</p>
                             <span>Elegant sliding doors for a boutique retail space.</span>
@@ -116,7 +116,7 @@ const Works = () => {
                                 <div className='call-support'>
                                     <div className='icon-bg'></div>
                                     <div className='call-icon'>
-                                        <img src={callicon} alt='Contact Support Icon' />
+                                        <img src={callicon} alt='Contact Support Icon' loading='lazy' />
                                     </div>
                                     <div>
                                         <a href='https://wa.me/1234567890' target='_blank' rel='noopener noreferrer'>
@@ -127,7 +127,7 @@ const Works = () => {
                                 <div className='mail-support' >
                                     <div className='icon-bg'></div>
                                     <div className='mail-icon'>
-                                        <img src={mailicon} alt='Mail Support Icon' />
+                                        <img src={mailicon} alt='Mail Support Icon' loading='lazy' />
                                     </div>
                                     <div>
                                         <a href='mailto:xyz@gmail.com'>
@@ -138,7 +138,7 @@ const Works = () => {
                                 <div className='add-support'>
                                     <div className='icon-bg'></div>
                                     <div className='add-icon'>
-                                        <img src={locicon} alt='Address Support Icon' />
+                                        <img src={locicon} alt='Address Support Icon' loading='lazy' />
                                     </div>
                                     <div>
                                         <a href="https://www.google.com/maps?q=Ranchi" target="_blank" rel="noreferrer">
