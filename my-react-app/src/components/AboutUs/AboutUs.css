@@ -150,14 +150,6 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    .about-us {
-        flex-direction: row;
-        gap: 4%;
-        margin-top: 8%;
-        margin-bottom: 6%;
-        align-items: center;
-    }
-
     .img-content {
         width: 45%;
     }
@@ -207,7 +199,7 @@
     }
 
     .ag-courses-item_date-box {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 

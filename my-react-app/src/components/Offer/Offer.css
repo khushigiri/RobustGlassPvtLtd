@@ -313,12 +313,6 @@
         line-height: 24px;
     }
 
-    /* KEY FIX: 3 → 2 columns */
-    .services-cards {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 25px;
-    }
-
     .card-content,
     .overlay,
     .hover-actions {

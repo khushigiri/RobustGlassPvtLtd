@@ -73,7 +73,7 @@
 
 .work-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 50px;
 }
 
@@ -421,7 +421,6 @@ textarea:hover {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    /* SECTION FIX */
     .our-work-section {
         height: auto;
         margin-bottom: 10%;
@@ -431,7 +430,6 @@ textarea:hover {
         padding: 70px 30px;
     }
 
-    /* HEADING FIX */
     .work-heading-info {
         gap: 25px;
         align-items: flex-start;
@@ -455,16 +453,15 @@ textarea:hover {
         line-height: 24px;
     }
 
-    /* CARDS */
     .work-cards {
+        grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
 
     .work-card img {
-        height: 180px;
+        height: 45vh;
     }
 
-    /* FORM SECTION */
     #form-section {
         flex-direction: column;
         gap: 30px;
