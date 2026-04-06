@@ -112,7 +112,6 @@
 }
 
 .card-desc {
-    text-align: justify;
     font-size: 14px;
 }
 
@@ -236,6 +235,10 @@
         padding-bottom: 60px;
     }
 
+    .product-carousel {
+        margin-left: 18px;
+    }
+
     .product-heading-info {
         gap: 25px;
         align-items: flex-start;
@@ -259,10 +262,8 @@
         line-height: 24px;
     }
 
-    /* CARD OPTIMIZATION */
     .product-card {
         padding: 30px;
-        width: 100% !important;
         gap: 12px;
     }
 

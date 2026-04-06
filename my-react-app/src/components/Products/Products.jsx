@@ -33,17 +33,17 @@ const Products = () => {
         {
             icons: <MdWindow />,
             title: "8mm Glass",
-            desc: "Used for shower enclosures, large windows, and doors where added thickness provides better safety."
+            desc: "Used for shower closures, large windows, and doors where thickness provides safety."
         },
         {
             icons: <FaRulerCombined />,
             title: "10mm Glass",
-            desc: "Heavy-duty glass commonly used in commercial partitions, railings, and structural glazing systems."
+            desc: "Heavy-duty glass commonly used in partitions, railings, and structural glazing systems."
         },
         {
             icons: <HiOutlineBuildingOffice2 />,
             title: "12mm Glass",
-            desc: "High-strength glass for staircases, balconies, canopies, and frameless use."
+            desc: "High-strength glass for staircases, balconies, and frameless use in modern designs."
         },
     ];
 

@@ -46,7 +46,7 @@ const Offer = () => {
                                         <h5>Innovative Glass for Creative Spaces</h5>
                                     </div>
                                 </div>
-                                <p>Our bespoke glass solutions are ideal for architectural features, designer partitions, and custom installations that prioritize aesthetics and safety.</p>
+                                <p>Our glass solutions are ideal for architectural features, designer partitions, and custom installations prioritizing aesthetics and safety.</p>
                                 <div className="wrapper">
                                     <div className="circle"></div>
                                     <div className="circle"></div>
@@ -111,7 +111,7 @@ const Offer = () => {
                                         <h5>Elegant Glass for Functional Living</h5>
                                     </div>
                                 </div>
-                                <p>From glass railings to balcony panels and wardrobe doors — we elevate interiors and enhance real estate with modern glass applications.</p>
+                                <p>From glass railings to  wardrobe doors — we elevate interiors and enhance real estate with modern glass applications.</p>
                                 <div className="wrapper">
                                     <div className="circle"></div>
                                     <div className="circle"></div>

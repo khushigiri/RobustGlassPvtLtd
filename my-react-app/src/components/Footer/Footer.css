@@ -166,11 +166,11 @@
     }
 
     .row1 {
-        width: 48%;
+        width: 50%;
     }
 
     .row2, .row3 {
-        width: 22%;
+        width: 21%;
     }
 
     .row4, .row5 {
@@ -183,21 +183,23 @@
     }
 
     .footer-about-us {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 22px;
     }
 
     .footer-lists a {
-        font-size: 11px;
+        font-size: 14px;
         margin-bottom: 12px;
     }
 
     .footer-contact {
         gap: 8px;
+        font-size: 14px;
     }
 
     .footer-socials {
         gap: 10px;
+        margin-bottom: 20px;
     }
 
     .footer-socials a {
