@@ -537,6 +537,10 @@ textarea:hover {
         margin: 15px 0;
     }
 
+    .work-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     #form-section {
         flex-direction: column;
     }
